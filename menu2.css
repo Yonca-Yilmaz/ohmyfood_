@@ -3,6 +3,11 @@ body {
   width: 100%;
 }
 
+h3 {
+  margin-left: 10%;
+  text-align: center;
+}
+
 section {
   background-color: #fff5fe;
   width: 70%;
@@ -20,9 +25,9 @@ section {
 .plats {
   display: flex;
   flex-direction: column;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .appétit {
@@ -118,15 +123,12 @@ footer {
   border: 1px solid #478c73;
   height: 40px;
   margin-top: 2%;
-  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
   justify-content: space-between;
   color: #ebc74c;
 }
 
-footer p {
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
+p {
   font-family: "Lato", sans-serif;
 }
 
