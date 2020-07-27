@@ -92,4 +92,16 @@ footer a:hover {
   }
 }
 
+@media all and (max-width: 1024px) {
+  body {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
 /*# sourceMappingURL=mentions.css.map */
