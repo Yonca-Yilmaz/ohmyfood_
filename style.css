@@ -8,6 +8,12 @@ body {
   width: 100%;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -31,6 +37,7 @@ hgroup:hover {
 
 .menu_note {
   display: block;
+  margin-top: 20%;
   text-align: center;
   height: 350px;
   width: 250px;
@@ -52,7 +59,7 @@ hgroup:hover {
   display: flex;
   flex-direction: column;
   font-size: 30px;
-  margin-top: 5%;
+  margin-top: 10%;
   font-weight: normal;
   font-family: "Devonshire", cursive;
   color: black;
@@ -60,7 +67,8 @@ hgroup:hover {
 
 .menu_note i {
   font-size: 40px;
-  margin-top: 20%;
+  margin-top: 30%;
+  margin-bottom: 5px;
   background: linear-gradient(to right, #f0525b 0%, #f68f69 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -175,13 +183,17 @@ header {
   background-color: #478c73;
   border: 1px solid #478c73;
   height: 80px;
-  text-align: center;
+  justify-content: center;
 }
 
 header h1 {
+  background-color: #478c73;
+  border: 1px solid #478c73;
+  text-align: center;
+  font-size: 45px;
   color: #ffcc45;
   text-align: center;
-  font-family: "Poller One", cursive;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
 }
 
@@ -347,7 +359,7 @@ footer {
     margin-right: 5%;
     margin-top: 3%;
     margin-bottom: 19%;
-    margin-top: 25%;
+    margin-top: 23%;
   }
 
   .haut {
