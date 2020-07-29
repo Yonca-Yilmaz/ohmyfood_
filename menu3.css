@@ -249,11 +249,10 @@ footer p {
   section .nomplat {
     width: 100%;
     text-align: center;
-    align-items: center;
   }
 
   .prix {
-    margin-left: 40%;
+    margin-left: 43%;
     text-align: center;
     font-weight: bold;
   }
@@ -263,14 +262,17 @@ footer p {
   }
 
   ul {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20%;
+    display: block;
+    list-style: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 5px;
   }
 
   .titre {
     display: flex;
-    justify-content: space-between;
   }
 
   section h2 {
@@ -283,6 +285,11 @@ footer p {
     justify-content: space-between;
     align-items: center;
   }
+
+  li {
+    width: 100%;
+  }
 }
+
 
 /*# sourceMappingURL=menu3.css.map */
