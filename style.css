@@ -20,11 +20,6 @@ section {
 }
 
 hgroup {
-  line-height: 20px;
-  margin-top: 20%;
-}
-
-hgroup {
   cursor: pointer;
   transform: scale(1);
   transition-property: transform;
