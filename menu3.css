@@ -18,6 +18,12 @@ footer {
   bottom: 0;
 }
 
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
 section {
   background-color: #EDEFEF;
   box-shadow: 2px 2px 3px 4px #ccc;
@@ -72,14 +78,13 @@ header {
 }
 
 header h1 {
-  width: 100%;
   background-color: #478c73;
   border: 1px solid #478c73;
-  height: 60px;
   text-align: center;
+  font-size: 45px;
   color: #ffcc45;
   text-align: center;
-  font-family: "Poller One", cursive;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
 }
 
@@ -236,8 +241,8 @@ footer p {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 3%;
-    margin-bottom: 19%;
+    margin-top: 29%;
+    margin-bottom: 15%;
   }
 
   .plats {
@@ -289,13 +294,13 @@ footer p {
   li {
     width: 100%;
   }
-  header{
+
+  header {
     width: 100%;
     position: fixed;
     top: 0;
+  }
 }
-}
-
 
 
 /*# sourceMappingURL=menu3.css.map */
