@@ -289,7 +289,13 @@ footer p {
   li {
     width: 100%;
   }
+  header{
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
+}
+
 
 
 /*# sourceMappingURL=menu3.css.map */
