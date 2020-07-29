@@ -63,14 +63,13 @@ header {
 }
 
 h1 {
-  width: 100%;
-  background-color: #478c73;
+ background-color: #478c73;
   border: 1px solid #478c73;
-  height: 60px;
   text-align: center;
+  font-size: 45px;
   color: #ffcc45;
   text-align: center;
-  font-family: "Poller One", cursive;
+  font-family: "Montserrat", sans-serif;
   font-weight: normal;
 }
 
