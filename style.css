@@ -78,6 +78,7 @@ hgroup:hover {
   display: block;
   height: 350px;
   width: 250px;
+  margin-top: 20%;
   box-shadow: 2px 2px 3px 4px #ccc;
   border-radius: 2px;
   padding: 2%;
