@@ -7,6 +7,9 @@ html, body {
 body {
   width: 100%;
 }
+aside {
+  margin-top: 10%;
+}
 
 section {
   background-color: #fde0dc;
