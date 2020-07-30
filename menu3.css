@@ -32,6 +32,7 @@ section {
   margin-right: 15%;
   margin-top: 10%;
   margin-bottom: 5%;
+}
 
 .plats {
   display: flex;
@@ -80,9 +81,9 @@ header h1 {
   background-color: #478c73;
   border: 1px solid #478c73;
   text-align: center;
+  justify-content: center;
   font-size: 55px;
   color: #ffcc45;
-  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
