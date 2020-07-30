@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@charset "UTF-8";
 html, body {
   margin: 0;
   padding: 0;
@@ -15,7 +14,7 @@ section {
   width: 70%;
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 3%;
+  margin-top: 5%;
   margin-bottom: 5%;
   padding-top: 3%;
   padding-bottom: 3%;
@@ -63,7 +62,7 @@ header {
 }
 
 h1 {
- background-color: #478c73;
+  background-color: #478c73;
   border: 1px solid #478c73;
   text-align: center;
   font-size: 45px;
@@ -201,6 +200,7 @@ h4 {
 }
 
 .underline {
+  text-align: center;
   background: linear-gradient(to top, black, black 1px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
@@ -238,25 +238,16 @@ header {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-bottom: 19%;
     font-family: "Kalam", cursive;
   }
 
   .plats {
-    width: 98%;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-
-  .nomplat {
-    text-align: center;
+    margin: 0;
   }
 
   .prix {
-    text-align: center;
-    margin-right: 10%;
-    margin-left: 30%;
     font-weight: bold;
   }
 
@@ -266,7 +257,6 @@ header {
 
   ul {
     display: flex;
-    flex-direction: column;
     width: 100%;
   }
 
@@ -282,7 +272,7 @@ header {
   }
 
   aside {
-    margin-top: 20%;
+    margin-top: 30%;
   }
 }
 
