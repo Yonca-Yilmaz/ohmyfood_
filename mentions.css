@@ -1,25 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   width: 100%;
 }
 
 h1 {
+  background-color: #478c73;
+  border: 1px solid #478c73;
+  text-align: center;
+  font-size: 55px;
   color: #ffcc45;
   text-align: center;
-  font-size: 35px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
 footer {
   display: flex;
-  width: auto;
+  width: 100%;
   align-items: center;
   background-color: #478c73;
   border: 1px solid #478c73;
   height: 40px;
   margin-top: 2%;
-  font-family: "Titillium Web", sans-serif;
   justify-content: space-between;
   color: #ebc74c;
+}
+
+p {
+  display: flex;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
 }
 
 section {
@@ -32,11 +47,6 @@ header {
   border: 1px solid #478c73;
   height: 70px;
   text-align: center;
-}
- header{
-    width: 100%;
-    position: fixed;
-    top: 0;
 }
 
 h2 {
@@ -96,17 +106,11 @@ footer a:hover {
     -webkit-transform: translate(2px, 2px);
   }
 }
-
-@media all and (max-width: 1024px) {
-  body {
-    width: 100%;
-  }
-
-  footer {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-  }
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
+
 
 /*# sourceMappingURL=mentions.css.map */
